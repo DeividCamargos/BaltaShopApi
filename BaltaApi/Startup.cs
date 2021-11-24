@@ -64,7 +64,7 @@ namespace BaltaApi
 
             //Não é mais necessário esse metódo, o .AddDbContext já faz essa função
             //services.AddScoped<BaltaContext, BaltaContext>(); //Significa que vou ter somente um Dc por requisição
-                                                              //(Sempre que a requisição acaba, o metodo destrói a conexão com o Db
+            //(Sempre que a requisição acaba, o metodo destrói a conexão com o Db
             //AddTransient => Toda vez que eu pedir um Dc ele irá criar um Dc novo
             //AddSingleton => Cria uma instância do meu DC por aplicação (Deixa a conexão aberta por muito tempo)
 
